@@ -15,33 +15,38 @@
 ## 目录
 
 ```
-01-langchain/     LangChain 主体：模型、消息、提示词、链、RAG、Agent
-02-langgraph/     LangGraph：状态图、多智能体
-03-langsmith/     LangSmith：追踪与评测
-projects/         综合实战项目
+01-langchain/     LangChain 主体（课件 01-10 章）
+02-langgraph/     LangGraph
+03-langsmith/     LangSmith 深入用法
+projects/         实战项目
 docs/             环境搭建、API 速查
 ```
 
 每节课一个文件夹，代码、笔记、截图放在一起：
 
 ```
-ch01-model-init/
-├── 01-model-init.ipynb
+ch02-model-init/
+├── 02-model-init.ipynb
 ├── note.md
 └── images/
 ```
 
 ## 进度
 
+按课件《尚硅谷-01~10》顺序推进。
+
 | 章节 | 内容 | 状态 |
 | --- | --- | --- |
-| ch01 | 模型初始化、invoke、温度与长度参数 | 完成 |
-| ch02 | 消息类型、多轮对话 | 完成 |
-| ch03 | 提示词模板 | 待学 |
-| ch04 | 输出解析 | 待学 |
-| ch05 | 链与 LCEL | 待学 |
-| ch06 | RAG | 待学 |
-| ch07 | Agent 与工具 | 待学 |
+| 01 | LangChain 1.2 概述 | 完成 |
+| 02 | 模型的创建与调用 | 完成 |
+| 03 | LangSmith 基本使用 | 待学 |
+| 04 | 消息与提示词模板 | 进行中 |
+| 05 | Tools | 待学 |
+| 06 | 结构化输出 | 待学 |
+| 07 | 智能体 | 待学 |
+| 08 | 中间件 | 待学 |
+| 09 | 上下文与记忆 | 待学 |
+| 10 | RAG | 待学 |
 
 ## 快速开始
 
@@ -59,13 +64,9 @@ cp .env.example .env        # 填入自己的 DEEPSEEK_API_KEY
 ## 约定
 
 - `.env` 不入库，密钥只留在本地
-- 提交信息带章节号：`ch02: 补充消息类型笔记`
-- 提交前清除 notebook 输出：
-
-```bash
-pip install nbstripout
-nbstripout --install
-```
+- 目录命名 `chNN-主题`，NN 与课件章号一致
+- 提交信息带章节号：`ch04: 补充消息类型笔记`
+- 提交前清除 notebook 输出：`pip install nbstripout && nbstripout --install`
 
 ## 笔记索引
 
