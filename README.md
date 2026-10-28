@@ -1,6 +1,6 @@
 # study-lang-family
 
-跟随尚硅谷课程学习 LangChain、LangGraph、LangSmith 的代码与笔记。
+学习 LangChain、LangGraph、LangSmith 的代码与笔记。
 
 ## 环境
 
@@ -15,14 +15,14 @@
 ## 目录
 
 ```
-01-langchain/     LangChain 主体（课件 01-10 章）
+01-langchain/     LangChain 主体
 02-langgraph/     LangGraph
 03-langsmith/     LangSmith 深入用法
 projects/         实战项目
 docs/             环境搭建、API 速查
 ```
 
-每节课一个文件夹，代码、笔记、截图放在一起：
+每节一个文件夹，代码、笔记、截图放在一起：
 
 ```
 ch02-model-init/
@@ -32,8 +32,6 @@ ch02-model-init/
 ```
 
 ## 进度
-
-按课件《尚硅谷-01~10》顺序推进。
 
 | 章节 | 内容 | 状态 |
 | --- | --- | --- |
@@ -64,7 +62,7 @@ cp .env.example .env        # 填入自己的 DEEPSEEK_API_KEY
 ## 约定
 
 - `.env` 不入库，密钥只留在本地
-- 目录命名 `chNN-主题`，NN 与课件章号一致
+- 目录命名 `chNN-主题`，NN 为章节号
 - 提交信息带章节号：`ch04: 补充消息类型笔记`
 - 提交前清除 notebook 输出：`pip install nbstripout && nbstripout --install`
 
