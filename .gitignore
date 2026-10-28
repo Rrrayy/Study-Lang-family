@@ -1,0 +1,23 @@
+# 密钥（绝不入库）
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 系统与工具
+.DS_Store
+Thumbs.db
+.workbuddy/
