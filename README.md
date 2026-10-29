@@ -22,13 +22,12 @@ projects/         实战项目
 docs/             环境搭建、API 速查
 ```
 
-每节一个文件夹，代码、笔记、截图放在一起：
+每章文件平铺，文件名带章节号：
 
 ```
-ch02-model-init/
-├── 02-model-init.ipynb
-├── note.md
-└── images/
+ch02-model-init.ipynb
+ch04.1-messages.ipynb
+images/
 ```
 
 ## 进度
