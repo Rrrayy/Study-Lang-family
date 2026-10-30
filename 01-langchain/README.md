@@ -6,7 +6,7 @@
 
 | 文件 | 内容 |
 | --- | --- |
-| [ch02-model-init.ipynb](ch02-model-init.ipynb) | 02 模型的创建与调用（含 04 消息类型练习） |
+| [ch02-model-init.ipynb](ch02-model.ipynb) | 02 模型的创建与调用（含 04 消息类型练习） |
 
 ## 规划（按课件一级节）
 
