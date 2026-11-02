@@ -9,7 +9,7 @@
 | [ch02-model.ipynb](ch02-model.ipynb) | 模型创建、参数、invoke 与三种输入格式 |
 | [ch02-profile-initparams-config.ipynb](ch02-profile-initparams-config.ipynb) | 模型 profile、完整初始化参数、model_kwargs、extra_body、config |
 | [ch03-message.ipynb](ch03-message.ipynb) | 消息类型与格式、对话历史管理与优化、多轮机器人、content_blocks |
-| [ch04-prompt_templates.ipynb](ch04-prompt_templates.ipynb) | 提示词模板（待写） |
+| [ch04-prompt_templates.ipynb](ch04-prompt_templates.ipynb) | 提示词模板：实例化方式、调用方式、初始化参数类型、消息占位符、可复用模板库 |
 
 ## 规划（按课件一级节）
 

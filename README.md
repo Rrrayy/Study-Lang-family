@@ -38,7 +38,7 @@ images/
 | [ch02-model.ipynb](01-langchain/ch02-model.ipynb) | 模型创建、参数、invoke 与三种输入格式 |
 | [ch02-profile-initparams-config.ipynb](01-langchain/ch02-profile-initparams-config.ipynb) | 模型 profile、完整初始化参数、model_kwargs、extra_body、config |
 | [ch03-message.ipynb](01-langchain/ch03-message.ipynb) | 消息类型与格式、对话历史管理与优化、多轮机器人、content_blocks |
-| [ch04-prompt_templates.ipynb](01-langchain/ch04-prompt_templates.ipynb) | 提示词模板（待写） |
+| [ch04-prompt_templates.ipynb](01-langchain/ch04-prompt_templates.ipynb) | 提示词模板：实例化方式、调用方式、初始化参数类型、消息占位符、可复用模板库 |
 | [langsmith-test.ipynb](03-langsmith/langsmith-test.ipynb) | LangSmith 接入与监控指标 |
 
 ## 进度
@@ -47,7 +47,7 @@ images/
 | --- | --- | --- |
 | 01 | LangChain 1.2 概述 | 完成 |
 | 02 | 模型的创建与调用 | 完成 |
-| 03 | 消息 | 进行中 |
+| 03 | 消息 | 完成 |
 | 04 | 提示词模板 | 进行中 |
 | 05 | Tools | 待学 |
 | 06 | 结构化输出 | 待学 |
