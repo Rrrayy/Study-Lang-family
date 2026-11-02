@@ -6,14 +6,15 @@
 
 | 文件 | 内容 |
 | --- | --- |
-| [ch02-model-init.ipynb](ch02-model.ipynb) | 02 模型的创建与调用（含 04 消息类型练习） |
+| [ch02-model.ipynb](ch02-model.ipynb) | 模型创建、参数、invoke 与三种输入格式 |
+| [ch02-profile-initparams-config.ipynb](ch02-profile-initparams-config.ipynb) | 模型 profile、完整初始化参数、model_kwargs、extra_body、config |
+| [ch03-message.ipynb](ch03-message.ipynb) | 消息类型与格式、对话历史管理与优化、多轮机器人、content_blocks |
+| [ch04-prompt_templates.ipynb](ch04-prompt_templates.ipynb) | 提示词模板（待写） |
 
 ## 规划（按课件一级节）
 
 | 章 | 文件 |
 | --- | --- |
-| 03 | `ch03.1-langsmith-setup.ipynb` |
-| 04 | `ch04.1-messages.ipynb` → `ch04.2-prompt-template.ipynb` |
 | 05 | `ch05.1-tool-def.ipynb` → `ch05.2-tool-decorator.ipynb` → `ch05.3-tool-practice.ipynb` |
 | 06 | `ch06.1-structured-output.ipynb` → `ch06.2-structured-output-extra.ipynb` |
 | 07 | `ch07.1-agent-basics.ipynb` → `ch07.2-agent-tools.ipynb` → `ch07.3-agent-advanced.ipynb` → `ch07.4-agent-project.ipynb` |
