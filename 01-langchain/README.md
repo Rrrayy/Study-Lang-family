@@ -10,6 +10,7 @@
 | [ch02-profile-initparams-config.ipynb](ch02-profile-initparams-config.ipynb) | 模型 profile、完整初始化参数、model_kwargs、extra_body、config |
 | [ch03-message.ipynb](ch03-message.ipynb) | 消息类型与格式、对话历史管理与优化、多轮机器人、content_blocks |
 | [ch04-prompt_templates.ipynb](ch04-prompt_templates.ipynb) | 提示词模板：实例化方式、调用方式、初始化参数类型、消息占位符、可复用模板库 |
+| [ch05-tools.ipynb](ch05-tools.ipynb) | 工具调用：直接调用与 bind_tools、消息流转、不用 @tool 的定义方式、convert_to_openai_tool、@tool 装饰器 |
 
 ## 规划（按课件一级节）
 
