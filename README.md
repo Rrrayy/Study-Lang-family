@@ -39,7 +39,7 @@ images/
 | [ch02-profile-initparams-config.ipynb](01-langchain/ch02-profile-initparams-config.ipynb) | 模型 profile、完整初始化参数、model_kwargs、extra_body、config |
 | [ch03-message.ipynb](01-langchain/ch03-message.ipynb) | 消息类型与格式、对话历史管理与优化、多轮机器人、content_blocks |
 | [ch04-prompt_templates.ipynb](01-langchain/ch04-prompt_templates.ipynb) | 提示词模板：实例化方式、调用方式、初始化参数类型、消息占位符、可复用模板库 |
-| [ch05-tools.ipynb](01-langchain/ch05-tools.ipynb) | 工具调用：直接调用与 bind_tools、消息流转、convert_to_openai_tool、@tool 装饰器 |
+| [ch05-tools.ipynb](01-langchain/ch05-tools.ipynb) | 工具调用：直接调用与 bind_tools、消息流转、convert_to_openai_tool、@tool 装饰器、parse_docstring、args_schema（Pydantic / JSON Schema） |
 | [langsmith-test.ipynb](03-langsmith/langsmith-test.ipynb) | LangSmith 接入与监控指标 |
 
 ## 进度
@@ -50,7 +50,7 @@ images/
 | 02 | 模型的创建与调用 | 完成 |
 | 03 | 消息 | 完成 |
 | 04 | 提示词模板 | 完成 |
-| 05 | Tools | 进行中 |
+| 05 | Tools | 完成 |
 | 06 | 结构化输出 | 待学 |
 | 07 | 智能体 | 待学 |
 | 08 | 中间件 | 待学 |
