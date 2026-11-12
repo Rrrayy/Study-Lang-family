@@ -40,6 +40,8 @@ images/
 | [ch03-message.ipynb](01-langchain/ch03-message.ipynb) | 消息类型与格式、对话历史管理与优化、多轮机器人、content_blocks |
 | [ch04-prompt_templates.ipynb](01-langchain/ch04-prompt_templates.ipynb) | 提示词模板：实例化方式、调用方式、初始化参数类型、消息占位符、可复用模板库 |
 | [ch05-tools.ipynb](01-langchain/ch05-tools.ipynb) | 工具调用：直接调用与 bind_tools、消息流转、convert_to_openai_tool、@tool 装饰器、parse_docstring、args_schema（Pydantic / JSON Schema） |
+| [ch06-structured-Output.ipynb](01-langchain/ch06-structured-Output.ipynb) | 结构化输出：四种 Schema 方式对比、Pydantic 模型与 Field、SecretStr、Optional 默认值、枚举与 Literal、列表提取、嵌套结构 |
+| [ch07-Agent.ipynb](01-langchain/ch07-Agent.ipynb) | 智能体：create_agent 参数、两种传模型方式、invoke 入参结构、system 角色、绑定工具、工具重试机制 |
 | [langsmith-test.ipynb](03-langsmith/langsmith-test.ipynb) | LangSmith 接入与监控指标 |
 
 ## 进度
@@ -51,8 +53,8 @@ images/
 | 03 | 消息 | 完成 |
 | 04 | 提示词模板 | 完成 |
 | 05 | Tools | 完成 |
-| 06 | 结构化输出 | 待学 |
-| 07 | 智能体 | 待学 |
+| 06 | 结构化输出 | 完成 |
+| 07 | 智能体 | 进行中 |
 | 08 | 中间件 | 待学 |
 | 09 | 上下文与记忆 | 待学 |
 | 10 | RAG | 待学 |

@@ -11,6 +11,8 @@
 | [ch03-message.ipynb](ch03-message.ipynb) | 消息类型与格式、对话历史管理与优化、多轮机器人、content_blocks |
 | [ch04-prompt_templates.ipynb](ch04-prompt_templates.ipynb) | 提示词模板：实例化方式、调用方式、初始化参数类型、消息占位符、可复用模板库 |
 | [ch05-tools.ipynb](ch05-tools.ipynb) | 工具调用：直接调用与 bind_tools、消息流转、不用 @tool 的定义方式、convert_to_openai_tool、@tool 装饰器、parse_docstring、args_schema（Pydantic / JSON Schema）、多轮工具循环 |
+| [ch06-structured-Output.ipynb](ch06-structured-Output.ipynb) | 结构化输出：四种 Schema 方式对比、Pydantic 模型与 Field、SecretStr、Optional 默认值、枚举与 Literal、列表提取、嵌套结构 |
+| [ch07-Agent.ipynb](ch07-Agent.ipynb) | 智能体：create_agent 完整参数、字符串与对象两种传模型方式、invoke 入参结构、system 角色、绑定工具、工具重试机制、工具选择原则 |
 
 ## 规划（按课件一级节）
 
