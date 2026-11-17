@@ -42,7 +42,7 @@ images/
 | [ch05-tools.ipynb](01-langchain/ch05-tools.ipynb) | 工具调用：直接调用与 bind_tools、消息流转、convert_to_openai_tool、@tool 装饰器、parse_docstring、args_schema（Pydantic / JSON Schema） |
 | [ch06-structured-Output.ipynb](01-langchain/ch06-structured-Output.ipynb) | 结构化输出：四种 Schema 方式对比、Pydantic 模型与 Field、SecretStr、Optional 默认值、枚举与 Literal、列表提取、嵌套结构 |
 | [ch07-Agent.ipynb](01-langchain/ch07-Agent.ipynb) | 智能体：create_agent 参数、绑定工具与重试、结构化输出（ProviderStrategy / ToolStrategy / AutoStrategy）、handle_errors 错误处理、流式输出、多工具 CLI 助手实战 |
-| [ch08-middleware.ipynb](01-langchain/ch08-middleware.ipynb) | 中间件：内置中间件（摘要 / 人工介入 / PII / 调用限流 / 工具重试与 jitter / 模型重试 / 上下文清理）、自定义中间件（Node-style hooks、jump_to 与 can_jump_to、Wrap-style hooks 装饰器与类实现） |
+| [ch08-middleware.ipynb](01-langchain/ch08-middleware.ipynb) | 中间件：内置中间件（摘要 / 人工介入 / PII / 调用限流 / 工具重试与 jitter / 模型重试 / 上下文清理）、自定义中间件（Node-style hooks、jump_to 与 can_jump_to、Wrap-style hooks 装饰器与类实现、多个中间件执行顺序与洋葱模型） |
 | [langsmith-test.ipynb](03-langsmith/langsmith-test.ipynb) | LangSmith 接入与监控指标 |
 
 ## 进度
