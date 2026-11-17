@@ -13,7 +13,7 @@
 | [ch05-tools.ipynb](ch05-tools.ipynb) | 工具调用：直接调用与 bind_tools、消息流转、不用 @tool 的定义方式、convert_to_openai_tool、@tool 装饰器、parse_docstring、args_schema（Pydantic / JSON Schema）、多轮工具循环 |
 | [ch06-structured-Output.ipynb](ch06-structured-Output.ipynb) | 结构化输出：四种 Schema 方式对比、Pydantic 模型与 Field、SecretStr、Optional 默认值、枚举与 Literal、列表提取、嵌套结构 |
 | [ch07-Agent.ipynb](ch07-Agent.ipynb) | 智能体：create_agent 参数、两种传模型方式、invoke 入参结构、system 角色、绑定工具、工具重试机制、agent 名称、结构化输出（ProviderStrategy / ToolStrategy / AutoStrategy）、tool_message_content、handle_errors 错误处理、流式输出、多工具 CLI 助手实战 |
-| [ch08-middleware.ipynb](ch08-middleware.ipynb) | 中间件：内置中间件（Summarization / HumanInTheLoop / PII / ModelCallLimit / ToolCallLimit / ToolRetry 抖动与惊群 / ModelRetry / ContextEditing）、自定义中间件（Node-style hooks 装饰器与类两种实现、state 与 runtime 参数、can_jump_to） |
+| [ch08-middleware.ipynb](ch08-middleware.ipynb) | 中间件：内置中间件（Summarization / HumanInTheLoop / PII / ModelCallLimit / ToolCallLimit / ToolRetry 抖动与惊群 / ModelRetry / ContextEditing）、自定义中间件（Node-style hooks：before/after_agent、before/after_model，state 与 runtime，jump_to 与 can_jump_to；Wrap-style hooks：wrap_model_call / wrap_tool_call，装饰器与类两种实现） |
 
 ## 规划（按课件一级节）
 
