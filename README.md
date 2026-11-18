@@ -43,7 +43,7 @@ images/
 | [ch06-structured-Output.ipynb](01-langchain/ch06-structured-Output.ipynb) | 结构化输出：四种 Schema 方式对比、Pydantic 模型与 Field、SecretStr、Optional 默认值、枚举与 Literal、列表提取、嵌套结构 |
 | [ch07-Agent.ipynb](01-langchain/ch07-Agent.ipynb) | 智能体：create_agent 参数、绑定工具与重试、结构化输出（ProviderStrategy / ToolStrategy / AutoStrategy）、handle_errors 错误处理、流式输出、多工具 CLI 助手实战 |
 | [ch08-middleware.ipynb](01-langchain/ch08-middleware.ipynb) | 中间件：内置中间件（摘要 / 人工介入 / PII / 调用限流 / 工具重试与 jitter / 模型重试 / 上下文清理）、自定义中间件（Node-style hooks、jump_to 与 can_jump_to、Wrap-style hooks 装饰器与类实现、多个中间件执行顺序与洋葱模型） |
-| [ch09-memory.ipynb](01-langchain/ch09-memory.ipynb) | 上下文与记忆：短期记忆三件套（State + Checkpointer + Thread ID）、InMemorySaver 与 thread_id 会话隔离、自动追加历史、内存增长与上下文管理、持久化选型 |
+| [ch09-memory.ipynb](01-langchain/ch09-memory.ipynb) | 上下文与记忆：短期记忆三件套（State + Checkpointer + Thread ID）、thread_id 会话隔离、PostgresSaver 持久化、上下文管理（裁剪 / 删除 / 摘要）、长期记忆（store 的 namespace/key/value、put/get/search、工具中访问） |
 | [langsmith-test.ipynb](03-langsmith/langsmith-test.ipynb) | LangSmith 接入与监控指标 |
 
 ## 进度
@@ -58,7 +58,7 @@ images/
 | 06 | 结构化输出 | 完成 |
 | 07 | 智能体 | 完成 |
 | 08 | 中间件 | 完成 |
-| 09 | 上下文与记忆 | 进行中 |
+| 09 | 上下文与记忆 | 完成 |
 | 10 | RAG | 待学 |
 
 另有 [03-langsmith/](03-langsmith) 记录 LangSmith 接入与监控，进行中。

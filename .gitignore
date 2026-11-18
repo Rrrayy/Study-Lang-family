@@ -21,3 +21,6 @@ venv/
 .DS_Store
 Thumbs.db
 .workbuddy/
+
+# 运行时产物
+01-langchain/call_times_with_jitter.txt

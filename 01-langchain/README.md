@@ -14,7 +14,7 @@
 | [ch06-structured-Output.ipynb](ch06-structured-Output.ipynb) | 结构化输出：四种 Schema 方式对比、Pydantic 模型与 Field、SecretStr、Optional 默认值、枚举与 Literal、列表提取、嵌套结构 |
 | [ch07-Agent.ipynb](ch07-Agent.ipynb) | 智能体：create_agent 参数、两种传模型方式、invoke 入参结构、system 角色、绑定工具、工具重试机制、agent 名称、结构化输出（ProviderStrategy / ToolStrategy / AutoStrategy）、tool_message_content、handle_errors 错误处理、流式输出、多工具 CLI 助手实战 |
 | [ch08-middleware.ipynb](ch08-middleware.ipynb) | 中间件：内置中间件（Summarization / HumanInTheLoop / PII / ModelCallLimit / ToolCallLimit / ToolRetry 抖动与惊群 / ModelRetry / ContextEditing）、自定义中间件（Node-style hooks：before/after_agent、before/after_model，state 与 runtime，jump_to 与 can_jump_to；Wrap-style hooks：wrap_model_call / wrap_tool_call，装饰器与类两种实现；多个中间件的执行顺序与洋葱模型） |
-| [ch09-memory.ipynb](ch09-memory.ipynb) | 上下文与记忆：短期记忆三件套（State + Checkpointer + Thread ID）、InMemorySaver、thread_id 会话隔离、checkpointer 自动追加历史、内存无限增长与上下文管理、持久化选型（SqliteSaver / PostgresSaver） |
+| [ch09-memory.ipynb](ch09-memory.ipynb) | 上下文与记忆：短期记忆三件套（State + Checkpointer + Thread ID）、InMemorySaver、thread_id 会话隔离、checkpointer 自动追加历史、外部持久化（PostgresSaver）、上下文管理（消息裁剪 / RemoveMessage 删除 / 摘要）、长期记忆（store → namespace → key → value、put/get/search、InMemoryStore 与 PostgresStore、在工具中访问记忆） |
 
 ## 规划（按课件一级节）
 
