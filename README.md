@@ -46,7 +46,7 @@ images/
 | [ch08-middleware.ipynb](01-langchain/ch08-middleware.ipynb) | 中间件：内置中间件（摘要 / 人工介入 / PII / 调用限流 / 工具重试与 jitter / 模型重试 / 上下文清理）、自定义中间件（Node-style hooks、jump_to 与 can_jump_to、Wrap-style hooks 装饰器与类实现、多个中间件执行顺序与洋葱模型） |
 | [ch09-memory.ipynb](01-langchain/ch09-memory.ipynb) | 上下文与记忆：短期记忆三件套（State + Checkpointer + Thread ID）、thread_id 会话隔离、PostgresSaver 持久化、上下文管理（裁剪 / 删除 / 摘要）、长期记忆（store 的 namespace/key/value、put/get/search、工具中访问） |
 | [ch10-RAG.ipynb](01-langchain/ch10-RAG.ipynb) | RAG：整体流程（加载 → 切分 → 嵌入 → 存储 → 检索 → 生成）、Document Loaders（Text / CSV / JSON / PDF / Docx / Unstructured / Markdown / HTML / 目录）、文本切分（CharacterTextSplitter、RecursiveCharacterTextSplitter、SemanticChunker 语义切割） |
-| [04-Milvus的基本使用.ipynb](01-langchain/04-Milvus的基本使用.ipynb) | 向量库 Milvus：DDL（数据库 / Collection 的增删查）、DML（嵌入模型初始化、生成向量、批量写入与 flush）、DQL（scan、主键查询、相似度检索） |
+| [ch10-04-Milvus.ipynb](01-langchain/ch10-04-Milvus.ipynb) | 向量库 Milvus：DDL（数据库 / Collection 的增删查）、DML（嵌入模型初始化、生成向量、批量写入与 flush）、DQL（scan、主键查询、相似度检索） |
 | [langsmith-test.ipynb](03-langsmith/langsmith-test.ipynb) | LangSmith 接入与监控指标 |
 
 ## 进度

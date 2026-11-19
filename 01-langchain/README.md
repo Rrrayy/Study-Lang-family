@@ -16,7 +16,7 @@
 | [ch08-middleware.ipynb](ch08-middleware.ipynb) | 中间件：内置中间件（Summarization / HumanInTheLoop / PII / ModelCallLimit / ToolCallLimit / ToolRetry 抖动与惊群 / ModelRetry / ContextEditing）、自定义中间件（Node-style hooks：before/after_agent、before/after_model，state 与 runtime，jump_to 与 can_jump_to；Wrap-style hooks：wrap_model_call / wrap_tool_call，装饰器与类两种实现；多个中间件的执行顺序与洋葱模型） |
 | [ch09-memory.ipynb](ch09-memory.ipynb) | 上下文与记忆：短期记忆三件套（State + Checkpointer + Thread ID）、InMemorySaver、thread_id 会话隔离、checkpointer 自动追加历史、外部持久化（PostgresSaver）、上下文管理（消息裁剪 / RemoveMessage 删除 / 摘要）、长期记忆（store → namespace → key → value、put/get/search、InMemoryStore 与 PostgresStore、在工具中访问记忆） |
 | [ch10-RAG.ipynb](ch10-RAG.ipynb) | RAG：整体流程（加载 → 切分 → 嵌入 → 存储 → 检索 → 生成）、Document Loaders（Text / CSV / JSON / PDF / Docx / Unstructured / Markdown / HTML / 目录）、文本切分（CharacterTextSplitter、RecursiveCharacterTextSplitter、带中文分隔符的递归切分、SemanticChunker 语义切割） |
-| [04-Milvus的基本使用.ipynb](04-Milvus的基本使用.ipynb) | 向量库 Milvus：DDL（查看 / 创建 / 删除数据库，切换数据库，Collection 的增删查）、DML（嵌入模型初始化、批量生成向量、封装插入格式、flush、统计信息）、DQL（scan、按主键查询、相似度检索） |
+| [ch10-04-Milvus.ipynb](ch10-04-Milvus.ipynb) | 向量库 Milvus：DDL（查看 / 创建 / 删除数据库，切换数据库，Collection 的增删查）、DML（嵌入模型初始化、批量生成向量、封装插入格式、flush、统计信息）、DQL（scan、按主键查询、相似度检索） |
 
 ## 规划（按课件一级节）
 
