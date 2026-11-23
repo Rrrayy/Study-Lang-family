@@ -35,4 +35,6 @@ PyCharm 使用方式：**单独打开本目录作为项目根**（File → Open 
 
 | 文件 | 内容 | 状态 |
 | --- | --- | --- |
+| [ch01-fundamental-langgraph.ipynb](ch01-fundamental-langgraph.ipynb) | 基础入门：LangChain 1.x 的定位与 LangGraph 的关系、StateGraph 最小图（State 定义 / add_node / add_edge / START / END / compile）、图可视化、reducer（`Annotated[list, add]`）、`Overwrite` 整体覆盖、输入与全局 State 分离 | 笔记未整理 |
+| [ch02-控制流与节点执行.ipynb](ch02-控制流与节点执行.ipynb) | 控制流与节点执行：顺序流、条件边（`add_conditional_edges` + `Literal` 路由）、`Send` 动态并行（map-reduce 式分发）、`Command` 跳转、`RunnableConfig` 传递配置 | 纯代码，无说明 |
 | test_env.py | 环境验证脚本（Python / 依赖版本 / .env / 模型调用） | 就绪 |

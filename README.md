@@ -64,7 +64,7 @@ images/
 | 09 | 上下文与记忆 | 完成 |
 | 10 | RAG | 完成 |
 
-LangChain 主体 01–10 全部完成。下一步进入 [02-langgraph/](02-langgraph)。
+LangChain 主体 01–10 全部完成，已转入 [02-langgraph/](02-langgraph)（ch01–ch02 已建笔记）。
 
 另有 [03-langsmith/](03-langsmith) 记录 LangSmith 接入与监控，进行中。
 
